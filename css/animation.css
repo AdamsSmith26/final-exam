@@ -1,0 +1,15 @@
+@keyframes starmoving {
+    0% {
+        left: -50px;
+        top: 160px;
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        left: -50px;
+        top: 220px;
+    }
+}

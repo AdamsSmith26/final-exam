@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-color">
     <div class="mynav">
@@ -28,17 +28,67 @@
     </div>
     
     <section class="container section-1">
-      <div class="section-1_left"></div> 
+      <div class="section-1_left">
+        <div class="section-1_left-title">
+          <h1>
+            Discover and
+            Collect The Best
+            NFTs 
+            <span>Digital Art.</span>
+          </h1>
+          <p> Get started with the easiest and most secure platform to buy and trade digital ART and NFT’s. Start exploring the world of digital art and NFTs today and take control of your digital assets with confidence!</p>
+        </div>
+        <div>
+          <button class="section-1_left-btn">Explore Now</button>
+        <span>Learn More</span>
+        </div>
+        <div class="stats">
+          <div class="frame-left">
+            <p><span id="num1">0</span>K</p>
+            <p>Art work</p>
+          </div>
+          <div class="frame-center">
+            <p><span id="num2">0</span>K</p>
+            <p>Artist</p>
+          </div>
+          <div class="frame-right">
+            <p><span id="num3">0</span>K</p>
+            <p>Collection</p>
+          </div>
+        </div>
+        
+
+
+
+      </div> 
       <div class="section-1_right">
        <div class="section-1_img">
         <div class="section-1_img-end">
           <div class="section-1_img-end-top">
             <span>Ends in</span>
             <span>Current bid</span>
-            <span>05:45:47</span>
+            <span id="time">05:45:47</span>
             <span>0.24ETH</span>
           </div>
           <button class="section-1_img-end-btn">Place A Bid</button>
+        </div>
+        <div class="circle">
+          <svg viewBox="0 0 100 100" width="100%" height="100%">
+            <defs>
+              <path id="circle"
+                d="
+                  M 50, 50
+                  m -37, 0
+                  a 37,37 0 1,1 74,0
+                  a 37,37 0 1,1 -74,0"/>
+            </defs>
+            <text font-size="9.3">
+              <textPath xlink:href="#circle">
+                A r t w o r k o f t h e w e e k A r t w o r k o f t h e w e e k
+              </textPath>
+            </text>
+          </svg>
+          <div class="star"></div>    
         </div>
        </div>
       </div> 
@@ -53,9 +103,9 @@
 
 
 
-
-    
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts/countdown.min.js"></script>
+  <script src="scripts/countUp.min.js"></script>
   <script src="scripts/script.js"></script>
 </body>
 </html>
