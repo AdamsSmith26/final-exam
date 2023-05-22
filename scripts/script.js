@@ -58,3 +58,30 @@ window.onload = function () {
         display = document.querySelector('#time');
     startTimer(myTime, display);
 };
+
+var card = document.getElementById('card-left');
+    window.addEventListener('scroll', async function () {
+        if (window.scrollY  > 200) {
+            card.classList.add("animate__slideInLeft");
+        } else {
+            card.classList.remove("animate__slideInLeft");
+        }
+    });
+
+var card1 = document.getElementById('card-center');
+    window.addEventListener('scroll', async function () {
+        if (window.scrollY  > 200) {
+            card1.classList.add("animate__zoomIn");
+        } else {
+            card1.classList.remove("animate__zoomIn");
+        }
+    });
+
+var card2 = document.getElementById('card-right');
+    window.addEventListener('scroll', async function () {
+        if (window.scrollY  > 200) {
+            card2.classList.add("animate__slideInRight");
+        } else {
+            card2.classList.remove("animate__slideInRight");
+        }
+    });

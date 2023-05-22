@@ -1,68 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/animation.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="bg-color">
-    <div class="mynav">
-        <div class="container f-row-between">
-          <button class="nav-burger" id="burger">
-            <span></span><span></span><span></span>
-          </button>
-          <div class="menu">
-            <ul>
-              <li><a href="#" class="active">Marketplace</a></li>
-              <li><a href="#">Artists</a></li>
-              <li><a href="#">Community</a></li>
-              <li><a href="#">Collections</a></li>
-            </ul>
-          </div>
-          <button class="nav-btn" id="nav-btn">Contact</button>
-        </div>
+  <div class="mynav">
+    <div class="container f-row-between">
+      <button class="nav-burger" id="burger">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="menu">
+        <ul>
+          <li><a href="#" class="active">Marketplace</a></li>
+          <li><a href="#">Artists</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Collections</a></li>
+        </ul>
+      </div>
+      <button class="nav-btn" id="nav-btn">Contact</button>
     </div>
-    
-    <section class="container section-1">
-      <div class="section-1_left">
-        <div class="section-1_left-title">
-          <h1>
-            Discover and
-            Collect The Best
-            NFTs 
-            <span>Digital Art.</span>
-          </h1>
-          <p> Get started with the easiest and most secure platform to buy and trade digital ART and NFT’s. Start exploring the world of digital art and NFTs today and take control of your digital assets with confidence!</p>
-        </div>
-        <div>
-          <button class="section-1_left-btn">Explore Now</button>
+  </div>
+
+  <section class="container section-1">
+    <div class="section-1_left">
+      <div class="section-1_left-title">
+        <h1>
+          Discover and
+          Collect The Best
+          NFTs
+          <span>Digital Art.</span>
+        </h1>
+        <p> Get started with the easiest and most secure platform to buy and trade digital ART and NFT’s. Start
+          exploring the world of digital art and NFTs today and take control of your digital assets with confidence!</p>
+      </div>
+      <div>
+        <button class="section-1_left-btn">Explore Now</button>
         <span>Learn More</span>
+      </div>
+      <div class="stats">
+        <div class="frame-left">
+          <p><span id="num1">0</span>K</p>
+          <p>Art work</p>
         </div>
-        <div class="stats">
-          <div class="frame-left">
-            <p><span id="num1">0</span>K</p>
-            <p>Art work</p>
-          </div>
-          <div class="frame-center">
-            <p><span id="num2">0</span>K</p>
-            <p>Artist</p>
-          </div>
-          <div class="frame-right">
-            <p><span id="num3">0</span>K</p>
-            <p>Collection</p>
-          </div>
+        <div class="frame-center">
+          <p><span id="num2">0</span>K</p>
+          <p>Artist</p>
         </div>
-        
-
-
-
-      </div> 
-      <div class="section-1_right">
-       <div class="section-1_img">
+        <div class="frame-right">
+          <p><span id="num3">0</span>K</p>
+          <p>Collection</p>
+        </div>
+      </div>
+    </div>
+    <div class="section-1_right">
+      <div class="section-1_img">
         <div class="section-1_img-end">
           <div class="section-1_img-end-top">
             <span>Ends in</span>
@@ -75,12 +75,11 @@
         <div class="circle">
           <svg viewBox="0 0 100 100" width="100%" height="100%">
             <defs>
-              <path id="circle"
-                d="
+              <path id="circle" d="
                   M 50, 50
                   m -37, 0
                   a 37,37 0 1,1 74,0
-                  a 37,37 0 1,1 -74,0"/>
+                  a 37,37 0 1,1 -74,0" />
             </defs>
             <text font-size="9.3">
               <textPath xlink:href="#circle">
@@ -88,24 +87,101 @@
               </textPath>
             </text>
           </svg>
-          <div class="star"></div>    
+          <div class="star"></div>
         </div>
-       </div>
-      </div> 
+      </div>
+    </div>
+  </section>
+
+  <section id="section-2" class="container section-2">
+    <div class="section-2_title">
+      <h1><span>Amazing</span> and Super 
+        Unique Art of This <span>Week</span></h1>
+        <button>See All</button>
+    </div>
+
+    <div class="section-2_cards">
+      <div id="card-left" class="card animate__animated">
+        <img src="img/cyberpankcosomo.png" alt="Cyberpank">
+        <div class="card-frame">
+          <div class="card-frame-top">
+            <h4>Cyberpunk Cocomo</h4>
+            <h5>490ETH</h5>
+          </div>
+          <div class="card-frame-bottom">
+            <div class="card-frame-bottom_time">
+              <span>Ending In</span>
+              <span id="time2"> <img src="img/time.png" alt="star"> 03:24:56</span>
+            </div>
+            <button>Place A Bid</button>
+          </div>
+        </div>
+      </div>
+      <div id="card-center" class="card animate__animated">
+        <img src="img/charge.png" alt="Cyberpank">
+        <div class="card-frame">
+          <div class="card-frame-top">
+            <h4>Charge, Qi tiao yu</h4>
+            <h5>490ETH</h5>
+          </div>
+          <div class="card-frame-bottom">
+            <div class="card-frame-bottom_time">
+              <span>Ending In</span>
+              <span id="time2"> <img src="img/time.png" alt="star"> 03:24:56</span>
+            </div>
+            <button>Place A Bid</button>
+          </div>
+        </div>
+      </div>
+      <div id="card-right" class="card animate__animated">
+        <img src="img/surgeon.png" alt="Cyberpank">
+        <div class="card-frame">
+          <div class="card-frame-top">
+            <h4>Surgeon, Josh Rife</h4>
+            <h5>490ETH</h5>
+          </div>
+          <div class="card-frame-bottom">
+            <div class="card-frame-bottom_time">
+              <span>Ending In</span>
+              <span id="time2"> <img src="img/time.png" alt="star"> 03:24:56</span>
+            </div>
+            <button>Place A Bid</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
 
 
-    </section>
+
+
+
+
+
+
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+
 
 
 
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="scripts/countdown.min.js"></script>
   <script src="scripts/countUp.min.js"></script>
   <script src="scripts/script.js"></script>
 </body>
+
 </html>
