@@ -62,9 +62,9 @@ window.onload = function () {
 var card = document.getElementById('card-left');
     window.addEventListener('scroll', async function () {
         if (window.scrollY  > 200) {
-            card.classList.add("animate__slideInLeft");
+            card.classList.add("animate__zoomInLeft");
         } else {
-            card.classList.remove("animate__slideInLeft");
+            card.classList.remove("animate__zoomInLeft");
         }
     });
 
@@ -80,8 +80,28 @@ var card1 = document.getElementById('card-center');
 var card2 = document.getElementById('card-right');
     window.addEventListener('scroll', async function () {
         if (window.scrollY  > 200) {
-            card2.classList.add("animate__slideInRight");
+            card2.classList.add("animate__zoomInRight");
         } else {
-            card2.classList.remove("animate__slideInRight");
+            card2.classList.remove("animate__zoomInRight");
         }
     });
+
+  
+    var photo1 = document.getElementById('photo1');
+    window.addEventListener('scroll', async function () {
+        if (window.scrollY  >  1000) {
+            photo1.classList.add("animate__fadeInUp");
+        } else {
+            photo1.classList.remove("animate__fadeInUp");
+        }
+    });
+
+    var photo2 = document.getElementById('photo2');
+    window.addEventListener('scroll', async function () {
+        if (window.scrollY  >  1000) {
+            photo2.classList.add("animate__fadeInDown");
+        } else {
+            photo2.classList.remove("animate__fadeInDown");
+        }
+    });
+
