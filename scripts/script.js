@@ -105,6 +105,24 @@ window.addEventListener('scroll', async function () {
   }
 });
 
+var photo3 = document.getElementById('photo3');
+window.addEventListener('scroll', async function () {
+  if (window.scrollY > 2400) {
+    photo3.classList.add("animate__fadeInTopLeft");
+  } else {
+    photo3.classList.remove("animate__fadeInTopLeft");
+  }
+});
+
+var photo4 = document.getElementById('photo4');
+window.addEventListener('scroll', async function () {
+  if (window.scrollY > 2400) {
+    photo4.classList.add("animate__fadeInDown");
+  } else {
+    photo4.classList.remove("animate__fadeInDown");
+  }
+});
+
 var img1 = document.getElementById('img1');
 window.addEventListener('scroll', async function () {
   if (window.scrollY > 1700) {

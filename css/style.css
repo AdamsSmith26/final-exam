@@ -836,23 +836,131 @@ svg {
 
 .section-4_images-left-bottom-right:hover {
     transform: scale(1.05);
+    border: 3px solid #D6EF0E;
 }
 
 .section-4_images-left-bottom-left:hover {
     transform: scale(1.05);  
+    border: 3px solid #D6EF0E;
 }
 
 .section-4_images-left-top-right:hover {
     transform: scale(1.05);
+    border: 3px solid #D6EF0E;
 }
 
 .section-4_images-left-top-left:hover {
     transform: scale(1.05);  
+    border: 3px solid #D6EF0E;
 }
 
 .section-4_images-right:hover {
     transform: scale(1.05);  
+    border: 3px solid #D6EF0E;
 }
+
+.section-5 {
+    width: 100%;
+    height: 95vh;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-5 .section-5_right {
+    width: 450px;
+    min-height: 230px;
+}
+
+.section-5_right-title {
+    width: 450px;
+    min-height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section-5_right-title h1 {
+    font-size: 44px;
+    color: #FFFFFD;
+    font-weight: 500;
+}
+
+.section-5_right-title h1 span {
+    font-size: 44px;
+    color: #D6EF0E;
+}
+
+.section-5_right-title p {
+    color: #FFFFFD;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.section-5_right .email {
+    width: 100%;
+    height: 45px;
+    position: relative;
+
+}
+
+.section-5_right .email input {
+    width: 100%;
+    height: 45px;
+    background-color: #131E3A;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.section-5_right-btn {
+    width: 130px;
+    height: 36px;
+    background-color: #D6EF0E;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 12px;
+    margin-top: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.section-5_right-btn:hover {
+    background-color: transparent;
+    color: #D6EF0E;
+    border: 1px solid #D6EF0E;
+}
+
+
+.section-5_left {
+    width: 700px;
+    min-height: 480px;
+    position: relative;
+}
+
+.section-5_left .photo3 {
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    bottom: 0;
+}
+
+.section-5_left .photo4 {
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    right: 100px;
+    bottom: 0;
+    z-index: 2222;
+}
+
+
+
+
+
 
 
 @media (max-width: 768px) {
