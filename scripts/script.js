@@ -170,7 +170,7 @@ window.addEventListener('scroll', async function () {
 
 var footer = document.getElementById('footer');
 window.addEventListener('scroll', async function () {
-    if (window.scrollY > 3600) {
+    if (window.scrollY > 3400) {
         footer.classList.add("animate__fadeInUp");
     } else {
         footer.classList.remove("animate__fadeInUp");
