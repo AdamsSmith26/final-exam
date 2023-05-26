@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+    .nav-burger {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        left: -100%;
+        top: 0;
+        width: 100%;
+        background-color: #D6EF0E;
+        padding: 60px 20px 20px;
+        transition: transfrom .5s;
+    }
+
+    .menu ul {
+        display: block;
+    }
+
+    .menu ul li a {
+        font-size: 24px;
+        display: block;
+        padding: 10px 0;
+    }
+
+    .mynav.open .menu {
+        transform: translateX(100%);
+    }
+
+    .nav-btn {
+        position: fixed;
+        top: 5px;
+        right: 5px;
+    }
+
+}

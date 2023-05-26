@@ -8,8 +8,10 @@
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="bootstrap/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/animation.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body class="bg-color">
@@ -30,160 +32,174 @@
     </div>
   </div>
 
-  <section class="container section-1">
-    <div class="section-1_left">
-      <div class="section-1_left-title">
-        <h1>
-          Discover and
-          Collect The Best
-          NFTs
-          <span>Digital Art.</span>
-        </h1>
-        <p> Get started with the easiest and most secure platform to buy and trade digital ART and NFT’s. Start
-          exploring the world of digital art and NFTs today and take control of your digital assets with confidence!</p>
-      </div>
-      <div>
-        <button class="section-1_left-btn">Explore Now</button>
-        <span>Learn More</span>
-      </div>
-      <div class="stats">
-        <div class="frame-left">
-          <p><span id="num1">0</span>K</p>
-          <p>Art work</p>
-        </div>
-        <div class="frame-center">
-          <p><span id="num2">0</span>K</p>
-          <p>Artist</p>
-        </div>
-        <div class="frame-right">
-          <p><span id="num3">0</span>K</p>
-          <p>Collection</p>
-        </div>
-      </div>
-    </div>
-    <div class="section-1_right">
-      <div class="section-1_img">
-        <div class="section-1_img-end">
-          <div class="section-1_img-end-top">
-            <span>Ends in</span>
-            <span>Current bid</span>
-            <span id="time">05:45:47</span>
-            <span>0.24ETH</span>
+  <section class="section-1">
+    <div class="container">
+      <div class="row">
+        <div class="section-1_left col-sm-12 col-lg-6">
+          <div class="section-1_left-title">
+            <h1>
+              Discover and
+              Collect The Best
+              NFTs
+              <span>Digital Art.</span>
+            </h1>
+            <p> Get started with the easiest and most secure platform to buy and trade digital ART and NFT’s. Start
+              exploring the world of digital art and NFTs today and take control of your digital assets with confidence!
+            </p>
+            <div class="section-btn">
+              <button class="section-1_left-btn">Explore Now</button>
+              <span class="sec-1_span">Learn More</span>
+            </div>
           </div>
-          <button class="section-1_img-end-btn">Place A Bid</button>
+          <div class="stats">
+            <div class="frame-left">
+              <p><span id="num1">0</span>K</p>
+              <p>Art work</p>
+            </div>
+            <div class="frame-center">
+              <p><span id="num2">0</span>K</p>
+              <p>Artist</p>
+            </div>
+            <div class="frame-right">
+              <p><span id="num3">0</span>K</p>
+              <p>Collection</p>
+            </div>
+          </div>
         </div>
-        <div class="circle">
-          <svg viewBox="0 0 100 100" width="100%" height="100%">
-            <defs>
-              <path id="circle" d="
-                  M 50, 50
-                  m -37, 0
-                  a 37,37 0 1,1 74,0
-                  a 37,37 0 1,1 -74,0" />
-            </defs>
-            <text font-size="9.3">
-              <textPath xlink:href="#circle">
-                A r t w o r k o f t h e w e e k A r t w o r k o f t h e w e e k
-              </textPath>
-            </text>
-          </svg>
-          <div class="star"></div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="section-2" class="container section-2">
-    <div class="section-2_title">
-      <h1><span>Amazing</span> and Super
-        Unique Art of This <span>Week</span></h1>
-      <button>See All</button>
-    </div>
 
-    <div class="section-2_cards">
-      <div id="card-left" class="card animate__animated">
-        <img src="img/cyberpankcosomo.png" alt="Cyberpank">
-        <div class="card-frame">
-          <div class="card-frame-top">
-            <h4>Cyberpunk Cocomo</h4>
-            <h5>490ETH</h5>
-          </div>
-          <div class="card-frame-bottom">
-            <div class="card-frame-bottom_time">
-              <span>Ending In</span>
-              <span id="time2"> <img src="img/time.png" alt="star"> 03:24:56</span>
+        <div class="section-1_right col-sm-12 col-lg-6">
+          <div class="section-1_img">
+            <div class="section-1_img-end">
+              <div class="section-1_img-end-top">
+                <span>Ends in</span>
+                <span>Current bid</span>
+                <span id="time">05:45:47</span>
+                <span>0.24ETH</span>
+              </div>
+              <button class="section-1_img-end-btn">Place A Bid</button>
             </div>
-            <button>Place A Bid</button>
-          </div>
-        </div>
-      </div>
-      <div id="card-center" class="card animate__animated">
-        <img src="img/charge.png" alt="Cyberpank">
-        <div class="card-frame">
-          <div class="card-frame-top">
-            <h4>Charge, Qi tiao yu</h4>
-            <h5>490ETH</h5>
-          </div>
-          <div class="card-frame-bottom">
-            <div class="card-frame-bottom_time">
-              <span>Ending In</span>
-              <span id="time2"> <img src="img/time.png" alt="star"> 03:24:56</span>
+            <div class="circle">
+              <svg viewBox="0 0 100 100" width="100%" height="100%">
+                <defs>
+                  <path id="circle" d="
+                      M 50, 50
+                      m -37, 0
+                      a 37,37 0 1,1 74,0
+                      a 37,37 0 1,1 -74,0" />
+                </defs>
+                <text font-size="9.3">
+                  <textPath xlink:href="#circle">
+                    A r t w o r k o f t h e w e e k A r t w o r k o f t h e w e e k
+                  </textPath>
+                </text>
+              </svg>
+              <div class="star"></div>
             </div>
-            <button>Place A Bid</button>
-          </div>
-        </div>
-      </div>
-      <div id="card-right" class="card animate__animated">
-        <img src="img/surgeon.png" alt="Cyberpank">
-        <div class="card-frame">
-          <div class="card-frame-top">
-            <h4>Surgeon, Josh Rife</h4>
-            <h5>490ETH</h5>
-          </div>
-          <div class="card-frame-bottom">
-            <div class="card-frame-bottom_time">
-              <span>Ending In</span>
-              <span id="time2"> <img src="img/time.png" alt="star"> 03:24:56</span>
-            </div>
-            <button>Place A Bid</button>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section-3 container">
-    <div class="section-3_left">
-      <div class="section-3_left-title">
-        <h1>
-          Create And Sell Your
-          <span>Best NFTs</span>
-        </h1>
-        <p> Start exploring the world of digital art and NFTs today and take control of your digital assets with
-          confidence!3</p>
-      </div>
-      <div>
-        <button class="section-3_left-btn">Explore Now</button>
-        <span>Learn More</span>
-      </div>
-    </div>
+  <section id="section-2" class="section-2">
+    <div class="container">
+      <div class="row">
+        <div class="section-2_title">
+          <h1><span>Amazing</span> and Super
+            Unique Art of This <span>Week</span></h1>
+          <button>See All</button>
+        </div>
 
-    <div class="section-3_right">
-      <div id="photo1" class="photo1 animate__animated"></div>
-      <div id="photo2" class="photo2 animate__animated"></div>
+        <div class="section-2_cards">
+          <div id="card-left" class="card animate__animated">
+            <img src="img/cyberpankcosomo.png" alt="Cyberpank">
+            <div class="card-frame">
+              <div class="card-frame-top">
+                <h4>Cyberpunk Cocomo</h4>
+                <h5>490ETH</h5>
+              </div>
+              <div class="card-frame-bottom">
+                <div class="card-frame-bottom_time">
+                  <span>Ending In</span>
+                  <span id="time2"> <img src="img/time.png" alt="star"> 03:24:56</span>
+                </div>
+                <button>Place A Bid</button>
+              </div>
+            </div>
+          </div>
+          <div id="card-center" class="card animate__animated">
+            <img src="img/charge.png" alt="Cyberpank">
+            <div class="card-frame">
+              <div class="card-frame-top">
+                <h4>Charge, Qi tiao yu</h4>
+                <h5>490ETH</h5>
+              </div>
+              <div class="card-frame-bottom">
+                <div class="card-frame-bottom_time">
+                  <span>Ending In</span>
+                  <span id="time2"> <img src="img/time.png" alt="star"> 03:24:56</span>
+                </div>
+                <button>Place A Bid</button>
+              </div>
+            </div>
+          </div>
+          <div id="card-right" class="card animate__animated">
+            <img src="img/surgeon.png" alt="Cyberpank">
+            <div class="card-frame">
+              <div class="card-frame-top">
+                <h4>Surgeon, Josh Rife</h4>
+                <h5>490ETH</h5>
+              </div>
+              <div class="card-frame-bottom">
+                <div class="card-frame-bottom_time">
+                  <span>Ending In</span>
+                  <span id="time2"> <img src="img/time.png" alt="star"> 03:24:56</span>
+                </div>
+                <button>Place A Bid</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="section-4 container">
-    <div class="section-4_title">
-      <h1>Popular <span>Artists</span> <br>
-        On This Week</h1>
-      <button>See All</button>
+  <section class="section-3">
+    <div class="container">
+      <div class="row">
+        <div class="section-3_left col-sm-12 col-md-5 col-lg-5">
+          <div class="section-3_left-title">
+            <h1>
+              Create And Sell Your
+              <span>Best NFTs</span>
+            </h1>
+            <p> Start exploring the world of digital art and NFTs today and take control of your digital assets with
+              confidence!</p>
+          </div>
+          <div>
+            <button class="section-3_left-btn">Explore Now</button>
+            <span class="sec-3_span">Learn More</span>
+          </div>
+        </div>
+        <div class="section-3_right col-sm-12 col-md-7 col-lg-7">
+          <div id="photo1" class="photo1 animate__animated"></div>
+          <div id="photo2" class="photo2 animate__animated"></div>
+        </div>
+      </div>
     </div>
-    <div class="section-4_images">
-      <div class="section-4_images-left">
-        <div class="section-4_images-left-top">
-          <div id="img1" class="section-4_images-left-top-left animate__animated">
+  </section>
+
+  <section class="section-4">
+    <div class="container">
+      <div class="row">
+        <div class="section-4_title">
+          <h1>Popular <span>Artists</span> <br>
+            On This Week</h1>
+          <button>See All</button>
+        </div>
+        <div class="section-4_images">
+          <div id="img1" class="section-4_images-1 animate__animated">
             <div class="section-4_images-frame">
               <img src="img/osvaldo.png" alt="#">
               <div class="section-4_images-frame_user">
@@ -192,7 +208,7 @@
               </div>
             </div>
           </div>
-          <div id="img2" class="section-4_images-left-top-right animate__animated">
+          <div id="img2" class="section-4_images-2 animate__animated">
             <div class="section-4_images-frame">
               <img src="img/ranson.png" alt="#">
               <div class="section-4_images-frame_user">
@@ -201,9 +217,7 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="section-4_images-left-bottom">
-          <div id="img3" class="section-4_images-left-bottom-left animate__animated">
+          <div id="img3" class="section-4_images-3 animate__animated">
             <div class="section-4_images-frame">
               <img src="img/sebastian.png" alt="#">
               <div class="section-4_images-frame_user">
@@ -212,7 +226,7 @@
               </div>
             </div>
           </div>
-          <div id="img4" class="section-4_images-left-bottom-right animate__animated">
+          <div id="img4" class="section-4_images-4 animate__animated">
             <div class="section-4_images-frame">
               <img src="img/abraham.png" alt="#">
               <div class="section-4_images-frame_user">
@@ -221,103 +235,117 @@
               </div>
             </div>
           </div>
+          <div id="img5" class="section-4_images-5 animate__animated">
+            <div class="section-4_images-frame">
+              <img src="img/cristio.png" alt="#">
+              <div class="section-4_images-frame_user">
+                <span>Owner</span>
+                <h5>Cristio leo</h5>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div id="img5" class="section-4_images-right animate__animated">
-        <div class="section-4_images-frame">
-          <img src="img/cristio.png" alt="#">
-          <div class="section-4_images-frame_user">
-            <span>Owner</span>
-            <h5>Cristio leo</h5>
+    </div>
+
+  </section>
+  <section class="section-5">
+    <div class="container">
+      <div class="row">
+        <div class="section-5_left col-sm-12 col-lg-7">
+          <img id="photo3" class="photo3 animate__animated" src="img/section-5_1.png">
+          <img id="photo4" class="photo4 animate__animated" src="img/section-5_2.png">
+        </div>
+        <div class="section-5_right col-sm-12 col-lg-5">
+          <div class="section-5_right-title">
+            <h1>
+              Subscribe And <span>get our Updates</span> Every Week
+            </h1>
+            <p> We have a blog related to NFT so we can share thoughts and routines on our blog which is updated weekly
+            </p>
+          </div>
+          <div class="email">
+            <input type="email" name="email" id="email" placeholder="Enter your e-mail">
+            <button class="section-5_right-btn">Subscribe</button>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="section-5 container">
-    <div class="section-5_left">
-      <img id="photo3" class="photo3 animate__animated" src="img/section-5_1.png">
-      <img id="photo4" class="photo4 animate__animated" src="img/section-5_2.png">
-    </div>
-    <div class="section-5_right">
-      <div class="section-5_right-title">
-        <h1>
-          Subscribe And <span>get our Updates</span> Every Week
-        </h1>
-        <p> We have a blog related to NFT so we can share thoughts and routines on our blog which is updated weekly</p>
-      </div>
-      <div class="email">
-        <input type="email" name="email" id="email" placeholder="Enter your e-mail">
-        <button class="section-5_right-btn">Subscribe</button>
-      </div>
-    </div>
-  </section>
-  <footer id="footer" class="footer container animate__animated">
-    <div class="footer-top">
-      <div class="footer-top_left">
-        <p>Discover NFTs by category, track the latest drop, and and follow the collections you love. Enjoy it!</p>
-        <div class="society">
-          <div class="fb">
-            <img src="img/fb.png" alt="fb">
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-top">
+          <div class="footer-top_left col-lg-5 col-sm-12">
+            <p>Discover NFTs by category, track the latest drop, and and follow the collections you love. Enjoy it!</p>
+            <div class="society">
+              <div class="fb">
+                <img src="img/fb.png" alt="fb">
+              </div>
+              <div class="tg">
+                <img src="img/tg.png" alt="tg">
+              </div>
+              <div class="tw">
+                <img src="img/tw.png" alt="tw">
+              </div>
+              <div class="li">
+                <img src="img/li.png" alt="li">
+              </div>
+            </div>
           </div>
-          <div class="tg">
-            <img src="img/tg.png" alt="tg">
-          </div>
-          <div class="tw">
-            <img src="img/tw.png" alt="tw">
-          </div>
-          <div class="li">
-            <img src="img/li.png" alt="li">
-          </div>
-        </div>
-      </div>
-      <div class="footer-top_right">
-        <div class="explore">
-          <span>Explore</span>
-          <div class="list">
-            <p>Art Sign In</p>
-            <p>Collectibles</p>
-            <p>Domain Name</p>
-            <p>Utility</p>
-          </div>
-        </div>
-        <div class="statistic">
-          <span>Statistic</span>
-          <div class="list">
-            <p>Ranking</p>
-            <p>Collectibles</p>
-            <p>Activity</p>
-            <p></p>
-          </div>
-        </div>
-        <div class="company">
-          <span>Company</span>
-          <div class="list">
-            <p>About Us</p>
-            <p>Career</p>
-            <p>Support</p>
-            <p>Partners</p>
+          <div class="footer-top_right col-lg-7 col-sm-12">
+            <div class="explore">
+              <span>Explore</span>
+              <div class="list">
+                <p>Art Sign In</p>
+                <p>Collectibles</p>
+                <p>Domain Name</p>
+                <p>Utility</p>
+              </div>
+            </div>
+            <div class="statistic">
+              <span>Statistic</span>
+              <div class="list">
+                <p>Ranking</p>
+                <p>Collectibles</p>
+                <p>Activity</p>
+                <p></p>
+              </div>
+            </div>
+            <div class="company">
+              <span>Company</span>
+              <div class="list">
+                <p>About Us</p>
+                <p>Career</p>
+                <p>Support</p>
+                <p>Partners</p>
+              </div>
+            </div>
+            <div class="resources">
+              <span>Resources</span>
+              <div class="list">
+                <p>Help Center</p>
+                <p>Platform Status</p>
+                <p>Blog</p>
+                <p></p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="resources">
-          <span>Resources</span>
-          <div class="list">
-            <p>Help Center</p>
-            <p>Platform Status</p>
-            <p>Blog</p>
-            <p></p>
+        <div class="copyright">
+          <span>© Copyright 2023 - davixq</span>
+          <div class="right-side">
+            <span>Privacy Policy</span>
+            <span>Terms & Conditions</span>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="copyright">
-      <span>© Copyright 2023 - davixq</span>
-      <div class="right-side">
-        <span>Privacy Policy</span>
-        <span>Terms & Conditions</span>
+
+
+
       </div>
     </div>
   </footer>
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
