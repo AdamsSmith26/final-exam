@@ -23,7 +23,7 @@
     }
 
     .menu {
-        position: absolute;
+        position: fixed;
         left: -100%;
         top: 0;
         width: 100%;
@@ -340,7 +340,7 @@
     }
 
     .menu {
-        position: absolute;
+        position: fixed;
         left: -100%;
         top: 0;
         width: 100%;
@@ -642,6 +642,15 @@
 
     .section-5_right-title p {
         text-align: center;
+        width: 100%;
+    }
+
+    .section-5_right .email {
+        width: 350px;
+    }
+
+    .section-5_right .email input {
+        width: 350px;
     }
 
     .footer {
