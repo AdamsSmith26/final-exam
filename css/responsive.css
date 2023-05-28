@@ -424,6 +424,10 @@
         height: 320px;
     }
 
+    svg {
+        max-width: 28vmin;
+    }
+
     .section-1_left .stats .frame-left {
         height: 80px;
         width: 80px;
@@ -447,7 +451,7 @@
         width: 220px;
         height: 130px;
         bottom: -40px;
-        left: 155px;
+        left: 125px;
     }
 
     .section-1_img-end-top {
