@@ -110,7 +110,7 @@ body {
     border: none;
     background-color: transparent;
     display: none;
-    z-index: 2;
+    z-index: 6666;
     cursor: pointer;
 }
 
@@ -316,8 +316,9 @@ svg {
 
 .section-1_left-title p {
     color: #FFFFFD;
+    width: 100%;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1em;
     font-family: 'Inter';
     line-height: 160%;
 }
@@ -455,7 +456,7 @@ svg {
 }
 
 .section-2_title h1 {
-    width: 40%;
+    width: 50%;
     height: 100px;
     color: #FFFFFD;
     font-size: 48px;
@@ -754,7 +755,6 @@ svg {
     border-radius: 8px;
     border: none;
     font-size: 12px;
-    margin-right: 10px;
     cursor: pointer;
     font-family: "Inter";
     font-weight: 700;
@@ -901,7 +901,7 @@ svg {
 }
 
 .section-5_right-title {
-    width: 400px;
+    width: 410px;
     height: 240px;
     display: flex;
     flex-direction: column;
@@ -929,14 +929,14 @@ svg {
 }
 
 .section-5_right .email {
-    width: 100%;
+    width: 430px;
     height: 45px;
     position: relative;
 
 }
 
 .section-5_right .email input {
-    width: 100%;
+    width: 430px;
     height: 45px;
     background-color: #131E3A;
     border: none;
@@ -988,7 +988,7 @@ svg {
 
 .section-5_left .photo4 {
     position: absolute;
-    width: 35%;
+    width: 40%;
     height: 75%;
     right: 100px;
     bottom: 0;
@@ -1024,6 +1024,7 @@ svg {
 
 .footer .copyright .right-side {
     display: flex;
+    width: 25%;
     justify-content: space-between;
     font-family: "Inter";
 }

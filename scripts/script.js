@@ -177,5 +177,5 @@ window.addEventListener('scroll', async function () {
     }
 });
 
-
+new WOW().init();
 
