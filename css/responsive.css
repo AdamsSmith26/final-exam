@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) and (min-width: 991px) {
+@media screen and (max-width: 1400px) and (min-width: 991px) {
     .section-1_left-title p {
         width: 85%;
     }
@@ -9,6 +9,11 @@
 
     .section-1_img-end {
         left: 150px;
+    }
+
+    .section-2_title h1 {
+        width: 50%;
+        line-height: 110%;
     }
 }
 
