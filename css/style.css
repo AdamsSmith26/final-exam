@@ -34,8 +34,6 @@ body {
 
 .mynav {
     min-height: 80px;
-    /* width: 100%; */
-    /* background-color: red; */
 }
 
 .f-row-between {
@@ -47,7 +45,6 @@ body {
 .menu {
     width: 60vh;
     min-height: 80px;
-    /* background-color: blue; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -444,7 +441,7 @@ svg {
 }
 
 .section-2 {
-    height: 700px;
+    height: 800px;
     padding: 40px 0 80px;
 }
 
@@ -722,7 +719,7 @@ svg {
 }
 
 .section-4 {
-    height: 700px;
+    height: 800px;
     padding: 40px 0 80px;
 }
 
@@ -905,7 +902,7 @@ svg {
 
 .section-5_right-title {
     width: 400px;
-    min-height: 240px;
+    height: 240px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
