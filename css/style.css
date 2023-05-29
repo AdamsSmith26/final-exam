@@ -23,6 +23,33 @@ body {
     font-weight: 500;
 }
 
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+body::-webkit-scrollbar-track {
+    background: transparent;        
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #D6EF0E;    
+    border-radius: 20px;      
+    border: 3px solid #D6EF0E;  
+  }
+
+.scroll {
+    width: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #D6EF0E;
+}
+
+
 .bg-color {
     background-image: url(../img/bgimage.png);
     background-color: #090F1D;
@@ -110,7 +137,7 @@ body {
     border: none;
     background-color: transparent;
     display: none;
-    z-index: 6666;
+    z-index: 6666666666666666666666666;
     cursor: pointer;
 }
 
@@ -704,7 +731,7 @@ svg {
     width: 55%;
     height: 70%;
     bottom: 0;
-    z-index: 12222;
+    z-index: 66;
     border-radius: 24px;
 }
 
@@ -794,7 +821,7 @@ svg {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1222;
+    z-index: 66;
 }
 
 .section-4_images-frame img {
