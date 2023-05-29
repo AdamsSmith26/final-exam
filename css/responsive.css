@@ -445,6 +445,10 @@
         height: 70px;
         margin-bottom: 20px;
     }
+
+    .section-5_left .photo4 {
+        z-index: 66;
+    }
 }
 
 
